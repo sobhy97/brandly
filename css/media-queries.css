@@ -1,0 +1,158 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+	h1, .h1,h2, .h2{
+		font-size: 22px;
+	}
+	p{
+		font-size: 18px;
+	}
+	
+	h2.h1::before, h2.h1::after{
+		left: 40%;
+	}
+	.navbar-nav li{
+	border-right: none;
+	}
+
+	.navbar .navbar-right{
+		background-color: transparent;
+		text-align: center;
+		width: 50%;
+		margin: auto;
+	}
+	.products .overlay h2{
+		font-size: 24px;
+	}
+	.products .overlay h2.big{
+		font-size:18px;
+	}
+	.hovereffect a.info{
+		margin:0;
+		padding: 10px 20px;
+	}
+	.hovereffect a.resp{
+		padding: 14px 12px;
+		margin: 10px 0;
+	}
+
+	.trend .carousel-caption{
+		position: static;
+	}
+	.trend .carousel-indicators{
+		bottom: 0;
+		left: 70%;
+	}
+	.subscribe .container p{
+		margin-top: 31px;
+	}
+	.subscribe .btn-lg{
+		margin-right: 0;
+		margin-left: 0;
+		padding: 11px 60px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 577px) and (max-width: 767px) { 
+	.navbar-nav {
+		margin: auto;}
+	.navbar-nav li{
+	border-right: none;
+	overflow-x: hidden;
+	}
+	.navbar-inverse .navbar-collapse{
+	text-align: center;
+		width: 50%;
+		margin: auto;
+	}
+	.navbar .navbar-right{
+	background-color: transparent;
+	}
+	.navbar-inverse .navbar-toggle .icon-bar:active{
+		color: #000;
+	}
+	.trend .carousel-caption{
+		position: static;
+	}
+	.trend .carousel-indicators{
+		bottom: 0;
+	}
+	h2.h1::before,h2.h1::after{
+		left: 44%;
+		width: 95px;
+	}
+	.products .overlay h2,.products .overlay h2.big{
+		font-size: 24px;
+	}
+	.hovereffect a.info{
+		margin:10px 0 0;
+		padding: 10px 20px;
+	}
+	.hovereffect a.resp{
+		padding: 12px 16px;
+		margin: 65px 0 0;
+	}
+	
+	.first-txt h1{
+		font-size: 35px;
+	}
+	.first-txt p{
+		font-size: 18px;
+	}
+	
+	.trend .carousel-caption p{
+		font-size: 16px;
+	}
+	.trend .carousel-caption h2{
+		font-size: 24px;
+	}
+	.subscribe .container p{
+		margin-top: 53px;
+	}
+	.subscribe .btn-lg{
+		margin-right: 0;
+		margin-left: 0;
+		padding: 11px 60px;
+	}	
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+.products .overlay h2,.products .overlay h2.big{
+		font-size: 24px;
+	}
+	.hovereffect a.info{
+		margin:10px 0 0;
+		padding: 10px 20px;
+	}
+	.hovereffect a.resp{
+		padding: 12px 16px;
+		margin: 65px 0 0;
+	}
+	.trend .carousel-indicators{
+		bottom: 5px;
+	}
+	.trend .carousel-caption p{
+		font-size: 16px;
+	}
+	.trend .carousel-caption h2{
+		font-size: 24px;
+	}
+	.subscribe .container p{
+		margin-top: 53px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	.trend .carousel-inner{
+		min-height:480px; 
+	}
+	.trend .carousel-indicators{
+		bottom: 5px;
+	}
+}
